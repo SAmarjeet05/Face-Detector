@@ -1,5 +1,7 @@
 # 👤 Face Detector
 
+🚀 Live Demo: https://face-detector1.streamlit.app/
+
 An interactive computer vision application that detects human faces in photographs using **OpenCV** and the **Haar Cascade** classifier. It converts image matrices into grayscale contrast channels, runs localized sliding window searches, maps bounding box coordinates, and extracts cropped individual face segments in a dashboard gallery.
 
 ---
