@@ -1,0 +1,4 @@
+Image Name,Width,Height,Channels,Face Count,Coordinates (x; y; w; h)
+sample_single.png,1024,1024,3,1,(380; 250; 280; 280)
+sample_group.png,1024,1024,3,5,(120; 150; 110; 110);(290; 160; 105; 105);(450; 140; 115; 115);(620; 155; 110; 110);(780; 145; 108; 108)
+sample_no_face.png,1024,1024,3,0,
