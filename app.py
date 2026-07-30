@@ -2,6 +2,12 @@ import streamlit as st
 import os
 import pandas as pd
 from PIL import Image
+import cv2
+
+# Debug prints to trace cv2 module location on deployment
+st.write(f"🔍 DEBUG: cv2 path -> `{getattr(cv2, '__file__', 'No __file__')}`")
+st.write(f"🔍 DEBUG: cv2 attributes -> `{dir(cv2)[:15]}...`")
+st.write(f"🔍 DEBUG: cv2 has CascadeClassifier? -> `{hasattr(cv2, 'CascadeClassifier')}`")
 
 # Import helper functions from model.py
 from model import (
